@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import MobileNav from "@/components/MobileNav";
-import { AnchorIcon } from "@/components/icons";
 
 const NAV_LINKS = [
   { href: "/", label: "Accueil" },
@@ -19,13 +19,18 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-mint/10 bg-navy/90 backdrop-blur-md">
       <div className="container-page relative flex items-center justify-between py-4">
-        <Link href="/" className="group flex items-center gap-2">
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-coral-gradient text-sand transition-transform group-hover:scale-105">
-            <AnchorIcon className="h-[18px] w-[18px]" />
-          </span>
-          <span className="font-display text-lg font-bold text-sand">
-            MTTL
-          </span>
+        <Link
+          href="/"
+          className="flex items-center rounded-lg bg-sand px-3 py-1.5 transition-transform hover:scale-105"
+        >
+          <Image
+            src="/images/logo-wordmark.png"
+            alt="Mohzain — Transit Transport & Logistics"
+            width={1100}
+            height={255}
+            priority
+            className="h-7 w-auto"
+          />
         </Link>
 
         <nav aria-label="Navigation principale" className="hidden md:block">
