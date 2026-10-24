@@ -18,7 +18,7 @@ export default function PortBadge({ className = "" }: PortBadgeProps) {
       <div className="relative h-32 w-32">
         <div className="absolute inset-0 rounded-full border border-mint/50 animate-ping-slow" />
         <div
-          className="absolute inset-2 rounded-full border border-dashed border-coral/60 animate-spin"
+          className="absolute inset-2 rounded-full border border-dashed border-mustard/60 animate-spin"
           style={{ animationDuration: "18s" }}
         />
         <div className="absolute inset-4 rounded-full glass shadow-glow" />
@@ -30,7 +30,7 @@ export default function PortBadge({ className = "" }: PortBadgeProps) {
           <defs>
             <linearGradient id="port-badge-gradient" x1="0" y1="0" x2="1" y2="1">
               <stop offset="0%" stopColor="#2DD4BF" />
-              <stop offset="100%" stopColor="#FF7A59" />
+              <stop offset="100%" stopColor="#E6A317" />
             </linearGradient>
           </defs>
           <circle cx="50" cy="50" r="18" fill="none" stroke="url(#port-badge-gradient)" strokeWidth="2" />

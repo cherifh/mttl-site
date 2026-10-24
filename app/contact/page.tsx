@@ -27,7 +27,7 @@ export default function ContactPage() {
           <h2 className="font-display text-xl text-navy">Coordonnées</h2>
           <div className="mt-4 space-y-4 text-ink/85">
             <p className="flex gap-3">
-              <MapPinIcon className="h-5 w-5 shrink-0 text-coral" />
+              <MapPinIcon className="h-5 w-5 shrink-0 text-mustard" />
               <span>
                 Immeuble Hafia
                 <br />
@@ -38,16 +38,16 @@ export default function ContactPage() {
             </p>
             <a
               href="mailto:Ahmed@mohzain.com"
-              className="flex items-center gap-3 hover:text-coral"
+              className="flex items-center gap-3 hover:text-mustard"
             >
-              <MailIcon className="h-5 w-5 shrink-0 text-coral" />
+              <MailIcon className="h-5 w-5 shrink-0 text-mustard" />
               Ahmed@mohzain.com
             </a>
             <a
               href="tel:+224628350231"
-              className="flex items-center gap-3 hover:text-coral"
+              className="flex items-center gap-3 hover:text-mustard"
             >
-              <PhoneIcon className="h-5 w-5 shrink-0 text-coral" />
+              <PhoneIcon className="h-5 w-5 shrink-0 text-mustard" />
               +224 628 35 02 31
             </a>
           </div>
@@ -74,7 +74,7 @@ export default function ContactPage() {
                 name="name"
                 type="text"
                 required
-                className="mt-1 w-full rounded-lg border border-steel/30 bg-sand/40 px-3 py-2 text-ink transition-colors focus:border-coral focus:outline-none focus:ring-2 focus:ring-coral/20"
+                className="mt-1 w-full rounded-lg border border-steel/30 bg-sand/40 px-3 py-2 text-ink transition-colors focus:border-mustard focus:outline-none focus:ring-2 focus:ring-mustard/20"
               />
             </div>
             <div>
@@ -89,7 +89,7 @@ export default function ContactPage() {
                 name="email"
                 type="email"
                 required
-                className="mt-1 w-full rounded-lg border border-steel/30 bg-sand/40 px-3 py-2 text-ink transition-colors focus:border-coral focus:outline-none focus:ring-2 focus:ring-coral/20"
+                className="mt-1 w-full rounded-lg border border-steel/30 bg-sand/40 px-3 py-2 text-ink transition-colors focus:border-mustard focus:outline-none focus:ring-2 focus:ring-mustard/20"
               />
             </div>
             <div>
@@ -104,12 +104,12 @@ export default function ContactPage() {
                 name="message"
                 rows={5}
                 required
-                className="mt-1 w-full rounded-lg border border-steel/30 bg-sand/40 px-3 py-2 text-ink transition-colors focus:border-coral focus:outline-none focus:ring-2 focus:ring-coral/20"
+                className="mt-1 w-full rounded-lg border border-steel/30 bg-sand/40 px-3 py-2 text-ink transition-colors focus:border-mustard focus:outline-none focus:ring-2 focus:ring-mustard/20"
               />
             </div>
             <button
               type="submit"
-              className="w-full rounded-full bg-coral-gradient px-6 py-3 font-medium text-sand shadow-glow-coral transition-transform hover:scale-[1.02] sm:w-auto"
+              className="w-full rounded-full bg-mustard-gradient px-6 py-3 font-medium text-sand shadow-glow-mustard transition-transform hover:scale-[1.02] sm:w-auto"
             >
               Envoyer le message
             </button>

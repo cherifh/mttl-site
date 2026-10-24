@@ -22,7 +22,7 @@
   }
 
   :focus-visible {
-    outline: 2px solid theme("colors.coral");
+    outline: 2px solid theme("colors.mustard");
     outline-offset: 2px;
   }
 

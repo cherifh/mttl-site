@@ -101,7 +101,7 @@ export default function ServicesPage() {
               <Reveal key={step.title} delay={i * 110} as="li">
                 <div className="flex items-center gap-4">
                   <span
-                    className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2 border-sand bg-coral-gradient text-sand shadow-glow-coral"
+                    className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-2 border-sand bg-mustard-gradient text-sand shadow-glow-mustard"
                     aria-hidden="true"
                   >
                     <Icon className="h-[18px] w-[18px]" />

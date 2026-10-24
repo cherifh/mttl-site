@@ -8,14 +8,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // "Port Horizon" palette — deep ocean navy fading into a
-        // Conakry-sunset coral, with a bright teal accent.
+        // "Port Horizon" palette — deep ocean navy, a bright teal accent,
+        // and a mustard gold that echoes the Mohzain logo's globe/arrow.
         navy: "#0A1F2B",
         ocean: "#061420",
         teal: "#0E7490",
         mint: "#2DD4BF",
-        coral: "#FF7A59",
-        coralDeep: "#E35D3B",
+        mustard: "#E6A317",
+        mustardDeep: "#C2850A",
         sand: "#F7F5F0",
         ink: "#13222B",
         steel: "#5B7682",
@@ -31,7 +31,7 @@ const config: Config = {
       backgroundImage: {
         "port-gradient":
           "radial-gradient(60% 80% at 15% 15%, rgba(45,212,191,0.18), transparent 60%), radial-gradient(70% 70% at 85% 25%, rgba(255,122,89,0.22), transparent 60%), linear-gradient(135deg, #061420 0%, #0A1F2B 55%, #0E3A46 100%)",
-        "coral-gradient": "linear-gradient(135deg, #FF7A59 0%, #E35D3B 100%)",
+        "mustard-gradient": "linear-gradient(135deg, #E6A317 0%, #C2850A 100%)",
         "mesh-glow":
           "radial-gradient(40% 60% at 20% 30%, rgba(45,212,191,0.25), transparent 70%), radial-gradient(50% 50% at 80% 70%, rgba(255,122,89,0.2), transparent 70%)",
       },
@@ -75,7 +75,7 @@ const config: Config = {
       },
       boxShadow: {
         glow: "0 0 40px -10px rgba(45,212,191,0.35)",
-        "glow-coral": "0 0 40px -10px rgba(255,122,89,0.45)",
+        "glow-mustard": "0 0 40px -10px rgba(230,163,23,0.45)",
       },
     },
   },

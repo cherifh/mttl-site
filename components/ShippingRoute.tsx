@@ -37,7 +37,7 @@ export default function ShippingRoute({ className = "" }: ShippingRouteProps) {
       />
       <path
         d="M -40 160 C 180 120, 360 220, 560 170 S 900 90, 1260 140"
-        stroke="#FF7A59"
+        stroke="#E6A317"
         strokeOpacity="0.18"
         strokeWidth="1.5"
         strokeDasharray="2 9"
@@ -52,14 +52,14 @@ export default function ShippingRoute({ className = "" }: ShippingRouteProps) {
             cx={cx}
             cy={cy}
             r={4}
-            fill={i === 0 ? "#FF7A59" : "#2DD4BF"}
+            fill={i === 0 ? "#E6A317" : "#2DD4BF"}
           />
           <circle
             cx={cx}
             cy={cy}
             r={4}
             fill="none"
-            stroke={i === 0 ? "#FF7A59" : "#2DD4BF"}
+            stroke={i === 0 ? "#E6A317" : "#2DD4BF"}
             strokeWidth="1.5"
             className="animate-ping-slow"
             style={{ transformOrigin: `${cx}px ${cy}px`, animationDelay: `${i * 0.6}s` }}

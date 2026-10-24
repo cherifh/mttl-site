@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="relative border-t border-mint/10 bg-navy text-sand/80">
       <div
-        className="h-px w-full bg-coral-gradient opacity-60"
+        className="h-px w-full bg-mustard-gradient opacity-60"
         aria-hidden="true"
       />
       <div className="container-page grid gap-10 py-14 text-sm md:grid-cols-3">

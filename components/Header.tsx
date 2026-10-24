@@ -60,7 +60,7 @@ export default function Header() {
 
         <Link
           href="/contact"
-          className="hidden rounded-full bg-coral-gradient px-5 py-2 text-sm font-medium text-sand shadow-glow-coral transition-transform hover:scale-105 md:inline-block"
+          className="hidden rounded-full bg-mustard-gradient px-5 py-2 text-sm font-medium text-sand shadow-glow-mustard transition-transform hover:scale-105 md:inline-block"
         >
           Nous contacter
         </Link>

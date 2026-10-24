@@ -39,7 +39,7 @@ export default function AboutPage() {
             </h2>
             <blockquote className="relative mt-4 max-w-prose rounded-2xl border border-navy/5 bg-white p-6 text-ink/85 shadow-sm">
               <span
-                className="absolute left-0 top-6 h-10 w-1 rounded-full bg-coral-gradient"
+                className="absolute left-0 top-6 h-10 w-1 rounded-full bg-mustard-gradient"
                 aria-hidden="true"
               />
               <p>
