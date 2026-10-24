@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-sand text-ink font-body;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-display text-navy;
+  }
+
+  a {
+    @apply transition-colors;
+  }
+
+  :focus-visible {
+    outline: 2px solid theme("colors.coral");
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer utilities {
+  .container-page {
+    @apply mx-auto max-w-6xl px-6;
+  }
+
+  .prose-measure {
+    max-width: 68ch;
+  }
+
+  /* Frosted glass surface, used on dark gradient sections */
+  .glass {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+
+  .glass-light {
+    background: rgba(255, 255, 255, 0.72);
+    border: 1px solid rgba(10, 31, 43, 0.08);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+
+  .text-shimmer {
+    background: linear-gradient(
+      90deg,
+      rgba(247, 245, 240, 0.6) 0%,
+      rgba(247, 245, 240, 1) 50%,
+      rgba(247, 245, 240, 0.6) 100%
+    );
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Reveal-on-scroll primitive: toggled by the Reveal component once
+     the element intersects the viewport. Starts hidden so content
+     degrades gracefully without JS (progressive, not required). */
+  .reveal {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+  }
+
+  .reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
