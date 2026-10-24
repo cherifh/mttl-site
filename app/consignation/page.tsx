@@ -18,7 +18,7 @@ export default function ConsignationPage() {
         <ShippingRoute />
         <div className="container-page relative">
           <Reveal>
-            <span className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-coral-gradient text-sand shadow-glow-coral">
+            <span className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-mustard-gradient text-sand shadow-glow-mustard">
               <AnchorIcon className="h-6 w-6" />
             </span>
           </Reveal>
@@ -52,7 +52,7 @@ export default function ConsignationPage() {
           <div className="mt-8">
             <Link
               href="/contact"
-              className="group inline-flex items-center gap-2 rounded-full bg-coral-gradient px-6 py-3 font-medium text-sand shadow-glow-coral transition-transform hover:scale-105"
+              className="group inline-flex items-center gap-2 rounded-full bg-mustard-gradient px-6 py-3 font-medium text-sand shadow-glow-mustard transition-transform hover:scale-105"
             >
               Discuter d&apos;une escale à venir
               <ArrowRightIcon className="h-4 w-4 transition-transform group-hover:translate-x-1" />

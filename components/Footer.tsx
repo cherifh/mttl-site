@@ -1,15 +1,22 @@
+import Image from "next/image";
 import { MailIcon, MapPinIcon, PhoneIcon } from "@/components/icons";
 
 export default function Footer() {
   return (
     <footer className="relative border-t border-mint/10 bg-navy text-sand/80">
       <div
-        className="h-px w-full bg-coral-gradient opacity-60"
+        className="h-px w-full bg-mustard-gradient opacity-60"
         aria-hidden="true"
       />
       <div className="container-page grid gap-10 py-14 text-sm md:grid-cols-3">
         <div>
-          <p className="font-display text-base text-sand">MTTL</p>
+          <Image
+            src="/images/logo-wordmark.png"
+            alt="Mohzain — Transit Transport & Logistics"
+            width={1100}
+            height={255}
+            className="h-8 w-auto rounded-lg bg-sand px-2 py-1"
+          />
           <p className="mt-3 max-w-prose text-sand/70">
             Consignation - dédouanement - transport — votre chaîne
             logistique maîtrisée à Conakry.

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Reveal from "@/components/Reveal";
 
 export const metadata: Metadata = {
@@ -22,14 +23,23 @@ export default function AboutPage() {
       </section>
 
       <section className="container-page py-16">
-        <div className="grid gap-12 md:grid-cols-2">
+        <Reveal className="flex justify-center">
+          <Image
+            src="/images/logo.jpeg"
+            alt="Mohzain — Transit Transport & Logistics, votre partenaire partout dans le monde"
+            width={1534}
+            height={1025}
+            className="w-full max-w-md"
+          />
+        </Reveal>
+        <div className="mt-16 grid gap-12 md:grid-cols-2">
           <Reveal>
             <h2 className="font-display text-2xl text-navy">
               Le mot du fondateur
             </h2>
             <blockquote className="relative mt-4 max-w-prose rounded-2xl border border-navy/5 bg-white p-6 text-ink/85 shadow-sm">
               <span
-                className="absolute left-0 top-6 h-10 w-1 rounded-full bg-coral-gradient"
+                className="absolute left-0 top-6 h-10 w-1 rounded-full bg-mustard-gradient"
                 aria-hidden="true"
               />
               <p>

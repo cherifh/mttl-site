@@ -118,7 +118,7 @@ export default function HomePage() {
             <div className="flex flex-wrap gap-4 pt-2">
               <Link
                 href="/services"
-                className="group inline-flex items-center gap-2 rounded-full bg-coral-gradient px-6 py-3 font-medium text-sand shadow-glow-coral transition-transform hover:scale-105"
+                className="group inline-flex items-center gap-2 rounded-full bg-mustard-gradient px-6 py-3 font-medium text-sand shadow-glow-mustard transition-transform hover:scale-105"
               >
                 Nos services
                 <ArrowRightIcon className="h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -162,7 +162,7 @@ export default function HomePage() {
               return (
                 <Reveal key={service.title} delay={i * 90}>
                   <div className="group h-full rounded-2xl border border-navy/5 bg-white p-6 transition-all hover:-translate-y-1 hover:border-mint/40 hover:shadow-glow">
-                    <span className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-navy text-mint transition-colors group-hover:bg-coral-gradient group-hover:text-sand">
+                    <span className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-navy text-mint transition-colors group-hover:bg-mustard-gradient group-hover:text-sand">
                       <Icon className="h-5 w-5" />
                     </span>
                     <h3 className="mt-4 font-display text-lg text-navy">
@@ -179,7 +179,7 @@ export default function HomePage() {
           <Reveal delay={360}>
             <Link
               href="/services"
-              className="mt-8 inline-flex items-center gap-2 font-medium text-navy hover:text-coral"
+              className="mt-8 inline-flex items-center gap-2 font-medium text-navy hover:text-mustard"
             >
               Voir le détail des services
               <ArrowRightIcon className="h-4 w-4" />
@@ -236,7 +236,7 @@ export default function HomePage() {
           </p>
           <Link
             href="/contact"
-            className="whitespace-nowrap rounded-full bg-coral-gradient px-6 py-3 font-medium text-sand shadow-glow-coral transition-transform hover:scale-105"
+            className="whitespace-nowrap rounded-full bg-mustard-gradient px-6 py-3 font-medium text-sand shadow-glow-mustard transition-transform hover:scale-105"
           >
             Nous contacter
           </Link>
